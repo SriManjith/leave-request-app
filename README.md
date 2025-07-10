@@ -1,12 +1,13 @@
-Leave Request App
+**Leave Request App**
+
 This project implements a Leave Request Application using SAPUI5 for the frontend and RAP (RESTful ABAP Programming) for the backend on SAP BTP ABAP Environment.
 
-Project Overview
+**Project Overview**
 - Frontend: SAPUI5 (developed locally with VS Code)
 - Backend: RAP OData service in ABAP Cloud
 - Source control: GitHub repository with proper documentation and versioning
 
-Setup and Development Environment
+**Setup and Development Environment**
 
 This section documents the setup steps and tools installed to start the development.
 
@@ -34,25 +35,22 @@ Note: Java JDK is needed when installing Eclipse on Linux platform as it acts as
 
 - Installed Java JDK in command line following below steps
 
-in Terminal:
-sudo apt update
-sudo apt install openjdk-17-jdk -y
+        in Terminal:
+        sudo apt update
+        sudo apt install openjdk-17-jdk -y
 
-Verified Java installation:
+- Verified Java installation:
 
-bash
-Copy
-Edit
-java -version
+        java -version
 
 - Installed Eclipse IDE from:
-https://www.eclipse.org/downloads/
+        https://www.eclipse.org/downloads/
 
-extrated the eclipse file using tar command:
+- Extrated the eclipse file using tar command:
 
-tar -xvzf <eclipse.tar.gz>
+        tar -xvzf <eclipse.tar.gz>
 
-once extracted just executed the intstalltion file "./eclipse"
+- Once extracted just executed the intstalltion file "./eclipse"
 
 - Installed ABAP Development Tools (ADT) plugin inside Eclipse:
 
